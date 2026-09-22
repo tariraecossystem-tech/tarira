@@ -1,0 +1,6 @@
+{
+  "name": "Tarira",
+  "description": "Plataforma integrada de talentos, terceirização e serviços em Moçambique com 5 unidades de negócios: Connect, Recruit, Outsourcing, Consulting e Studio.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
