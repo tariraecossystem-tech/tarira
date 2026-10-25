@@ -1,0 +1,141 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08101E" />
+      <stop offset="45%" stop-color="#0F1F38" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+    <radialGradient id="glowTop" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowBottom" cx="50%" cy="90%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="hairlineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#60A5FA" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.04" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+  <rect width="1200" height="630" fill="url(#glowTop)" />
+  <rect width="1200" height="630" fill="url(#glowBottom)" />
+
+  <!-- Subtle Blueprint Tech Grid Pattern -->
+  <g opacity="0.06" stroke="#FFFFFF" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="630" />
+    <line x1="300" y1="0" x2="300" y2="630" />
+    <line x1="500" y1="0" x2="500" y2="630" />
+    <line x1="700" y1="0" x2="700" y2="630" />
+    <line x1="900" y1="0" x2="900" y2="630" />
+    <line x1="1100" y1="0" x2="1100" y2="630" />
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="430" x2="1200" y2="430" />
+    <line x1="0" y1="530" x2="1200" y2="530" />
+  </g>
+
+  <!-- Top Pill: Geographic & Institutional Scope -->
+  <g transform="translate(600, 72)">
+    <rect x="-240" y="-18" width="480" height="36" rx="18" fill="#1E3A8A" fill-opacity="0.75" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.5" />
+    <circle cx="-210" cy="0" r="4.5" fill="#10B981" />
+    <text x="-195" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="800" fill="#E0F2FE" letter-spacing="2.5" text-anchor="start">
+      ECOSSISTEMA INTEGRADO DE SERVIÇOS • MOÇAMBIQUE
+    </text>
+  </g>
+
+  <!-- Official Tarira Linked Seal Icon (Centered at X=600, Y=175) -->
+  <g transform="translate(600, 180)">
+    <!-- Elo Esquerdo: Azul Ciano Vibrante -->
+    <ellipse cx="-28" cy="0" rx="46" ry="30" stroke="#38BDF8" stroke-width="11" fill="none" />
+    <!-- Elo Direito: Azul Corporativo Real -->
+    <ellipse cx="28" cy="0" rx="46" ry="30" stroke="#60A5FA" stroke-width="11" fill="none" />
+    <!-- Interlock Weave / Arco Superior Transpassante -->
+    <path d="M -28 -30 A 46 30 0 0 1 26 0" stroke="#38BDF8" stroke-width="11" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- Wordmark: TARIRA -->
+  <text x="600" y="295" font-family="'Times New Roman', Georgia, serif" font-size="64" font-weight="900" fill="#FFFFFF" letter-spacing="14" text-anchor="middle">
+    TARIRA
+  </text>
+
+  <!-- Hairline Divider -->
+  <line x1="380" y1="322" x2="820" y2="322" stroke="url(#hairlineGrad)" stroke-width="2" />
+
+  <!-- Dual Taglines (Português & English) -->
+  <text x="600" y="356" font-family="'Times New Roman', Georgia, serif" font-style="italic" font-size="22" font-weight="600" fill="#BFDBFE" text-anchor="middle">
+    Supervisionamos para que não precise.
+  </text>
+  <text x="600" y="384" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#94A3B8" letter-spacing="4.5" text-anchor="middle">
+    WE OVERSEE SO YOU DON'T HAVE TO.
+  </text>
+
+  <!-- 5 Business Units Showcase Grid / Cards -->
+  <g transform="translate(600, 470)">
+    <!-- Unit 1: Tarira Connect -->
+    <g transform="translate(-460, 0)">
+      <rect x="0" y="-36" width="176" height="72" rx="14" fill="url(#cardGrad)" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1" />
+      <text x="88" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#38BDF8" text-anchor="middle" letter-spacing="0.5">CONNECT</text>
+      <text x="88" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#E2E8F0" text-anchor="middle">Técnicos de Campo</text>
+      <text x="88" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#94A3B8" text-anchor="middle">&amp; Serviços Domésticos</text>
+    </g>
+
+    <!-- Unit 2: Tarira Recruit -->
+    <g transform="translate(-230, 0)">
+      <rect x="0" y="-36" width="176" height="72" rx="14" fill="url(#cardGrad)" stroke="#60A5FA" stroke-opacity="0.4" stroke-width="1.2" />
+      <text x="88" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#60A5FA" text-anchor="middle" letter-spacing="0.5">RECRUIT</text>
+      <text x="88" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#E2E8F0" text-anchor="middle">Talentos &amp; Quadros</text>
+      <text x="88" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#94A3B8" text-anchor="middle">Candidatos em 24–48h</text>
+    </g>
+
+    <!-- Unit 3: Tarira Outsourcing -->
+    <g transform="translate(0, 0)">
+      <rect x="-88" y="-36" width="176" height="72" rx="14" fill="url(#cardGrad)" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1" />
+      <text x="0" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#38BDF8" text-anchor="middle" letter-spacing="0.5">OUTSOURCING</text>
+      <text x="0" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#E2E8F0" text-anchor="middle">RPO &amp; Força de Trabalho</text>
+      <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#94A3B8" text-anchor="middle">Gestão e Folha Salarial</text>
+    </g>
+
+    <!-- Unit 4: Tarira Consulting -->
+    <g transform="translate(142, 0)">
+      <rect x="0" y="-36" width="176" height="72" rx="14" fill="url(#cardGrad)" stroke="#60A5FA" stroke-opacity="0.3" stroke-width="1" />
+      <text x="88" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#60A5FA" text-anchor="middle" letter-spacing="0.5">CONSULTING</text>
+      <text x="88" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#E2E8F0" text-anchor="middle">Consultoria de Gestão</text>
+      <text x="88" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#94A3B8" text-anchor="middle">Processos &amp; Compliance</text>
+    </g>
+
+    <!-- Unit 5: Tarira Studio -->
+    <g transform="translate(372, 0)">
+      <rect x="0" y="-36" width="176" height="72" rx="14" fill="url(#cardGrad)" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1" />
+      <text x="88" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#38BDF8" text-anchor="middle" letter-spacing="0.5">STUDIO</text>
+      <text x="88" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#E2E8F0" text-anchor="middle">Design &amp; Software</text>
+      <text x="88" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#94A3B8" text-anchor="middle">Produtos Digitais</text>
+    </g>
+  </g>
+
+  <!-- Bottom Institutional Footer Strip -->
+  <line x1="80" y1="565" x2="1120" y2="565" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1" />
+  <g transform="translate(600, 595)">
+    <text x="-480" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#38BDF8" text-anchor="start">
+      tarira.vercel.app
+    </text>
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#94A3B8" text-anchor="middle">
+      Garantia de Qualidade • Verificação Rigorosa • Atendimento Corporativo B2B &amp; B2C
+    </text>
+    <text x="480" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#CBD5E1" text-anchor="end">
+      Maputo, Moçambique
+    </text>
+  </g>
+</svg>
